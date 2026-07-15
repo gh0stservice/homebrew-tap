@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
   desc "Local gh0stcloud client and MCP adapter"
   homepage "https://gitlab.gh0stservice.com/gh0stlab/gh0stcli"
-  version "0.1.0"
+  version "0.1.1"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.0/gh0stcli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "741b771b6b09a040abae3b2749d5685dcd17ed2b290ee437d788032bd5863b3d"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.1/gh0stcli_0.1.1_darwin_arm64.tar.gz"
+      sha256 "9c60f6d80aa04b875e5a6608df68d89147b85dcff460a98386e664b43869f8b2"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.0/gh0stcli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "924158f1ff7fa15369b1d13405c5d015dbd11bab0442329e3fe19c77e39d0945"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.1/gh0stcli_0.1.1_darwin_amd64.tar.gz"
+      sha256 "d6afee9ceebaf28d0b01772c2aba354f8dc25296cce63e72880d89918c6f9013"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.0/gh0stcli_0.1.0_linux_arm64.tar.gz"
-      sha256 "207f4b95c221cc0a61a45a41a57a7c912691aa45bce728b9cbfbbe6e84b90ae0"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.1/gh0stcli_0.1.1_linux_arm64.tar.gz"
+      sha256 "64328e1eb002449fe126300193fc021158fa0750a3d813691f5d6a28159b96c5"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.0/gh0stcli_0.1.0_linux_amd64.tar.gz"
-      sha256 "151a5ffd31d7ae6c1974c65cd41457f7e4cd9cd197c22cd6acecc4e3e0bee99b"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.1/gh0stcli_0.1.1_linux_amd64.tar.gz"
+      sha256 "cc0b0569aff6b06bb492358517e234396041641c47ada8c9668fc321de9d6215"
     end
   end
 
