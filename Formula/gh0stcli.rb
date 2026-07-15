@@ -29,6 +29,6 @@ class Gh0stcli < Formula
   end
 
   test do
-    system "#{bin}/gh0stcli", "--help"
+    system bin/"gh0stcli", "--help"
   end
 end
