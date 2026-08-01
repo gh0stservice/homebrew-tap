@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
   desc "Local gh0stcloud client and MCP adapter"
   homepage "https://gitlab.gh0stservice.com/gh0stlab/gh0stcli"
-  version "0.1.6"
+  version "0.1.7"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.6/gh0stcli_0.1.6_darwin_arm64.tar.gz"
-      sha256 "98f89a0a580dff535c43fc0329664d9944a26da0d80d1488b52394a6a59f0145"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_darwin_arm64.tar.gz"
+      sha256 "c8d3988aaff8facfc6398a308063e987e5e5a2854f1667adef4972c6129bd539"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.6/gh0stcli_0.1.6_darwin_amd64.tar.gz"
-      sha256 "d6da709321b6e165e96b6cac2bd7039b0484ec268e53451973570cc7285508f7"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_darwin_amd64.tar.gz"
+      sha256 "15985ab3c8deb6689a33744f6a1d1e7e74882d4198a1af2be7d173f7cf8d0fa9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.6/gh0stcli_0.1.6_linux_arm64.tar.gz"
-      sha256 "20f6fcb6155e5806e72c2d6050117a78bf3bc70e141a4cfcd00301829cdedaeb"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_linux_arm64.tar.gz"
+      sha256 "f778a63f62aa55793331c2b11eb79966b52b4b33806b6c7cbd861aad7909e255"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.6/gh0stcli_0.1.6_linux_amd64.tar.gz"
-      sha256 "305868146d49eb545ada78a4b0d970f41e30e7bb4191abbbec5d62408f59b33c"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_linux_amd64.tar.gz"
+      sha256 "681d3bc5dc177cbf861cef6f0d0a7d89e1e33e70b3a0e68dc7ffb6cc3cf44751"
     end
   end
 
