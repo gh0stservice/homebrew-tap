@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
   desc "Local gh0stcloud client and MCP adapter"
   homepage "https://gitlab.gh0stservice.com/gh0stlab/gh0stcli"
-  version "0.1.7"
+  version "0.1.8"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_darwin_arm64.tar.gz"
-      sha256 "c8d3988aaff8facfc6398a308063e987e5e5a2854f1667adef4972c6129bd539"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_darwin_arm64.tar.gz"
+      sha256 "03ce60a2482db23fc668977696d8e30960c8f76a38baac4bcbf17ed6dd4a96ef"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_darwin_amd64.tar.gz"
-      sha256 "15985ab3c8deb6689a33744f6a1d1e7e74882d4198a1af2be7d173f7cf8d0fa9"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_darwin_amd64.tar.gz"
+      sha256 "e961f1bce3b5cd2e7a1907f25995c048f2a24eddad529f8a4cd5a5181a6c6749"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_linux_arm64.tar.gz"
-      sha256 "f778a63f62aa55793331c2b11eb79966b52b4b33806b6c7cbd861aad7909e255"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_linux_arm64.tar.gz"
+      sha256 "2b749fe043be66f32d914e82c7ff696871623b6ad17bca8d409e02172219f3e8"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.7/gh0stcli_0.1.7_linux_amd64.tar.gz"
-      sha256 "681d3bc5dc177cbf861cef6f0d0a7d89e1e33e70b3a0e68dc7ffb6cc3cf44751"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_linux_amd64.tar.gz"
+      sha256 "07317a383c55657d319077585ac43ecf19303be81976924b9df3da6faf7c30db"
     end
   end
 
