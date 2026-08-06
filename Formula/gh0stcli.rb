@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
-  desc "Local gh0stcloud client and MCP adapter"
-  homepage "https://gitlab.gh0stservice.com/gh0stlab/gh0stcli"
-  version "0.1.8"
+  desc "Client and MCP server for the gh0stcloud managed Kubernetes platform"
+  homepage "https://gh0stservice.com/en/gh0stcloud/self-service"
+  version "0.1.10"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_darwin_arm64.tar.gz"
-      sha256 "03ce60a2482db23fc668977696d8e30960c8f76a38baac4bcbf17ed6dd4a96ef"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_darwin_arm64.tar.gz"
+      sha256 "ffaded31aa2a543950d580cc97816d3d5214a37a7882c50cc622364834e90880"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_darwin_amd64.tar.gz"
-      sha256 "e961f1bce3b5cd2e7a1907f25995c048f2a24eddad529f8a4cd5a5181a6c6749"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_darwin_amd64.tar.gz"
+      sha256 "4e5bab8a054e10bc40e97958e2a4aeaa9c6f5ee03e0002a5a0955aaca9c91e1a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_linux_arm64.tar.gz"
-      sha256 "2b749fe043be66f32d914e82c7ff696871623b6ad17bca8d409e02172219f3e8"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_linux_arm64.tar.gz"
+      sha256 "77eae06028fe987ea9bcde9fb9d9e7f7b6e46d31b4d568cb03953d441b4635e4"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.8/gh0stcli_0.1.8_linux_amd64.tar.gz"
-      sha256 "07317a383c55657d319077585ac43ecf19303be81976924b9df3da6faf7c30db"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_linux_amd64.tar.gz"
+      sha256 "4ef7360519c32b73355dbf9a7d1285824aed8bc6c85b6ac114a6a82c6cbecb5b"
     end
   end
 
