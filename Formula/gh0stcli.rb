@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
   desc "Client and MCP server for the gh0stcloud managed Kubernetes platform"
   homepage "https://gh0stservice.com/en/gh0stcloud/self-service"
-  version "0.1.10"
+  version "0.1.11"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_darwin_arm64.tar.gz"
-      sha256 "ffaded31aa2a543950d580cc97816d3d5214a37a7882c50cc622364834e90880"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.11/gh0stcli_0.1.11_darwin_arm64.tar.gz"
+      sha256 "d95132d33ccef095a7afb64823c3ac430e54952eaba22aeb551755d4d5583007"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_darwin_amd64.tar.gz"
-      sha256 "4e5bab8a054e10bc40e97958e2a4aeaa9c6f5ee03e0002a5a0955aaca9c91e1a"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.11/gh0stcli_0.1.11_darwin_amd64.tar.gz"
+      sha256 "4c4c7e6b0a022d818d81cc0ae780e1cb46a33063ca6f38937af073e1781545ac"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_linux_arm64.tar.gz"
-      sha256 "77eae06028fe987ea9bcde9fb9d9e7f7b6e46d31b4d568cb03953d441b4635e4"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.11/gh0stcli_0.1.11_linux_arm64.tar.gz"
+      sha256 "8ceab41f4f9bf80951c6827cd4e5193444f84f9eaac87b8ca26c797a3f92497c"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.10/gh0stcli_0.1.10_linux_amd64.tar.gz"
-      sha256 "4ef7360519c32b73355dbf9a7d1285824aed8bc6c85b6ac114a6a82c6cbecb5b"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.1.11/gh0stcli_0.1.11_linux_amd64.tar.gz"
+      sha256 "bf71d250a184a4949133fb71d73e4798960c5c1cfe39235a29d8b73a5009cad5"
     end
   end
 
