@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
   desc "Client and MCP server for the gh0stcloud managed Kubernetes platform"
   homepage "https://gh0stservice.com/en/gh0stcloud/self-service"
-  version "0.4.0"
+  version "0.4.1"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.0/gh0stcli_0.4.0_darwin_arm64.tar.gz"
-      sha256 "c7ba43fe4782899c24afcecd7e70f1454f9483fa7790135843f11fbb578fce29"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.1/gh0stcli_0.4.1_darwin_arm64.tar.gz"
+      sha256 "81fdbf357f1e7d932a2b1261acde6ada9718b0e798ff0eef0d3c77e61c4f7273"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.0/gh0stcli_0.4.0_darwin_amd64.tar.gz"
-      sha256 "c049b631bf99391e1a88740ccc1e83c3fea2d167eea3e30f3c0e920547af93b1"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.1/gh0stcli_0.4.1_darwin_amd64.tar.gz"
+      sha256 "928f22a682219c2b49c8862f2856e9a3ad6450f4171ba734df5b981da15f6aae"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.0/gh0stcli_0.4.0_linux_arm64.tar.gz"
-      sha256 "1c066b1450a9acf04205a1d2fa66968e52e945bdbfea5b24d8886b25ef9ae0c6"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.1/gh0stcli_0.4.1_linux_arm64.tar.gz"
+      sha256 "f854952805618d8547462a0a3582ae28ee405fcd210fc8074040553a827b60d8"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.0/gh0stcli_0.4.0_linux_amd64.tar.gz"
-      sha256 "135bf6244bc163ee62b9e7ad586902b72efa70d8e8ce09a828595fa67a2d33ec"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.4.1/gh0stcli_0.4.1_linux_amd64.tar.gz"
+      sha256 "8d2bf254c4785e5adeeda5e19586906191678bb72ef597055801284347a9586c"
     end
   end
 
