@@ -1,26 +1,26 @@
 class Gh0stcli < Formula
   desc "Client and MCP server for the gh0stcloud managed Kubernetes platform"
   homepage "https://gh0stservice.com/en/gh0stcloud/self-service"
-  version "0.13.1"
+  version "0.14.0"
   license "LGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.13.1/gh0stcli_0.13.1_darwin_arm64.tar.gz"
-      sha256 "4470079fc992c60b59901156573980c922245602087809496f7a6fee58b1da87"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.14.0/gh0stcli_0.14.0_darwin_arm64.tar.gz"
+      sha256 "3ed1b2292b2374c1cfd874bec8e66e5be1f7eb327a3ce039274aaec24f11abcd"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.13.1/gh0stcli_0.13.1_darwin_amd64.tar.gz"
-      sha256 "9cea57e765d51f97be3339de3cecccf5b415d0d03e9e8b94075af849861e3c55"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.14.0/gh0stcli_0.14.0_darwin_amd64.tar.gz"
+      sha256 "c1d913c47ca65c9ba88ab557b7ff2219343ea82b26545c772a7534874daf7cba"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.13.1/gh0stcli_0.13.1_linux_arm64.tar.gz"
-      sha256 "545d916f3f0ae39e8681125e7bc8036492db2e0ea1342a5b32f2ce9c9c54db02"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.14.0/gh0stcli_0.14.0_linux_arm64.tar.gz"
+      sha256 "893e863be5d4f85024de05ee417ecb04fe4c7a55d528dfed1de34ee1d7d59dce"
     else
-      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.13.1/gh0stcli_0.13.1_linux_amd64.tar.gz"
-      sha256 "39c6f6b53324757aff2ff8fe0bf23493826e87420a0aef27994c0975e51132aa"
+      url "https://nbg1.your-objectstorage.com/gh0stservice-updates-vb4/gh0stcli/releases/v0.14.0/gh0stcli_0.14.0_linux_amd64.tar.gz"
+      sha256 "25a089b38ab225aca06f6b365a999294544da63cca7f69c768311a6989cc0213"
     end
   end
 
